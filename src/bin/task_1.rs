@@ -8,6 +8,7 @@ fn main() {
 }
 
 trait Action {
+    // медод с дефолтной реализацией
     fn say(&self) {
         println!("Hello, UNKNOWN");
     }
@@ -18,6 +19,7 @@ struct Person {
 }
 
 impl Person {
+    // конструктор для структуры
     fn new(name: String) -> Self {
         Person { name }
     }
