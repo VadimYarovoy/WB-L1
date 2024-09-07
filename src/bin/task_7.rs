@@ -1,3 +1,5 @@
+// Реализовать несколько способов остановки thread’ов и tokio task’ов: закрытие канала, tokio_util::CancellationToken
+
 use tokio::sync::mpsc;
 use tokio::time::{sleep, Duration};
 use tokio_util::sync::CancellationToken;
